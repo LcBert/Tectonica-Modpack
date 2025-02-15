@@ -59,6 +59,7 @@
 #EFF72C sophisticatedbackpacks:netherite_backpack
 #73753E minecraft:oak_fence
 #AD9EB5 minecraft:oak_leaves
+#BBA6D1 minecraft:oak_log
 #374556 minecraft:oak_sign
 #A98A11 mcwwindows:one_way_glass
 #BC9B12 mcwwindows:one_way_glass_pane
