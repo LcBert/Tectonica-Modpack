@@ -3,6 +3,7 @@
 #18999E mcwpaths:andesite_crystal_floor_path
 #0F359D minecraft:azure_bluet
 #A9A632 ftbquests:barrier
+#C6AC20 minecraft:cactus
 #BAFAA8 modular_machinery_reborn:casing_gearbox
 #CDE216 modular_machinery_reborn:casing_plain
 #075E21 modular_machinery_reborn:casing_reinforced
@@ -53,6 +54,7 @@
 #2ACDF4 mcwwindows:iron_shutter
 #79904E pipez:item_pipe
 #6E82E3 chisel:largeingot/iron_block
+#83CED3 minecraft:lava
 #7521A2 mcwtrpdoors:metal_warning_trapdoor
 #075630 mcwstairs:mossy_cobblestone_skyline_stairs
 #38AE7D minecraft:moving_piston
@@ -81,6 +83,7 @@
 #21C665 buildinggadgets2:render_block
 #54A8E9 factory_blocks:rust
 #E4F0A7 tectonica:sample_ore
+#86FC77 minecraft:sand
 #FC6399 ftbquests:screen_1
 #8D3FE8 minecraft:sculk_sensor
 #31A081 minecraft:smithing_table
