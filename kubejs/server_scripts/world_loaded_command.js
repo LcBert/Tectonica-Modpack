@@ -1,16 +1,19 @@
 LevelEvents.loaded(event => {
     // Difficulty
-    event.server.runCommand("difficulty peaceful")
+    event.server.runCommandSilent("difficulty peaceful")
     event.server.setDifficultyLocked(true)
 
     // Disable fall damage
-    event.server.runCommand("gamerule fallDamage false")
+    event.server.runCommandSilent("gamerule fallDamage false")
 
     // Time
-    event.server.runCommand("gamerule doDaylightCycle false")
-    event.server.runCommand("time set noon")
+    event.server.runCommandSilent("gamerule doDaylightCycle false")
+    event.server.runCommandSilent("time set noon")
 
     // Weather
-    event.server.runCommand("gamerule doWeatherCycle false")
-    event.server.runCommand("weather clear")
+    event.server.runCommandSilent("gamerule doWeatherCycle false")
+    event.server.runCommandSilent("weather clear")
+
+    // Disable Announce Advancements
+    event.server.runCommandSilent("gamerule announceAdvancements false")
 })
