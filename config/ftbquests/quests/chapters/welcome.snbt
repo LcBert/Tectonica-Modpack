@@ -1,0 +1,105 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "welcome"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "ftbchunks:textures/waypoint_home.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "21354A2B56155CC5"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/waypoint_home.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.2d
+			id: "2504F033D693F63E"
+			tasks: [{
+				id: "3662E4C62C0E3E7C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2504F033D693F63E"]
+			icon: {
+				components: {
+					"ftbquests:icon": "modular_machinery_reborn:block/overlay_controller"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.5d
+			id: "7F3A1E85A5ECE85F"
+			rewards: [{
+				id: "6780526E490FAA5C"
+				item: {
+					count: 1
+					id: "modular_machinery_reborn:blueprint"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4616211863064735"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2504F033D693F63E"]
+			icon: {
+				id: "minecraft:netherite_pickaxe"
+			}
+			icon_scale: 1.3d
+			id: "4A8D0099075D8C84"
+			tasks: [{
+				id: "1DC109089ED00612"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2504F033D693F63E"]
+			icon: {
+				components: {
+					"ftbquests:icon": "tectonica:block/sample_ore"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5A2B336D6720AA59"
+			tasks: [{
+				id: "68E5932359931CC3"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2504F033D693F63E"]
+			icon: {
+				components: {
+					"ftbquests:icon": "factory_blocks:block/factory"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0D09FBDDAC447795"
+			min_width: 270
+			tasks: [{
+				id: "5AC6F886FD2E2385"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+}

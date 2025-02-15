@@ -1,0 +1,10 @@
+#556 minecraft:beach
+#3D6 minecraft:cold_ocean
+#2DC minecraft:deep_dark
+#3DE minecraft:deep_ocean
+#010 minecraft:forest
+#4F1 minecraft:ocean
+#3DC minecraft:plains
+#5FF minecraft:river
+#51A minecraft:stony_shore
+#169 minecraft:taiga

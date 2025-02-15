@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "tectonica:block/reactor/reactor_glass"
+    }
+}

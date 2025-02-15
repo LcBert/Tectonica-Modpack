@@ -1,0 +1,15 @@
+{
+    "variants": {
+        "": {
+            "model": "tectonica:block/reactor_glass"
+        }
+    },
+    "athena:loader": "athena:ctm",
+    "ctm_textures": {
+        "center": "tectonica:block/ctm/reactor_glass/4",
+        "empty": "tectonica:block/ctm/reactor_glass/1",
+        "horizontal": "tectonica:block/ctm/reactor_glass/3",
+        "particle": "tectonica:block/ctm/reactor_glass/0",
+        "vertical": "tectonica:block/ctm/reactor_glass/2"
+    }
+}

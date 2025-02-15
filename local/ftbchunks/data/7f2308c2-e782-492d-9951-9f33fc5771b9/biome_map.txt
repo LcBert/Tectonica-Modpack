@@ -1,0 +1,14 @@
+#3DE minecraft:deep_ocean
+#010 minecraft:forest
+#286 minecraft:grove
+#51E minecraft:jagged_peaks
+#4B0 minecraft:jungle
+#79A minecraft:lukewarm_ocean
+#2D6 minecraft:meadow
+#4F1 minecraft:ocean
+#3DC minecraft:plains
+#67B minecraft:savanna
+#706 minecraft:savanna_plateau
+#524 minecraft:snowy_slopes
+#421 minecraft:stony_peaks
+#51A minecraft:stony_shore

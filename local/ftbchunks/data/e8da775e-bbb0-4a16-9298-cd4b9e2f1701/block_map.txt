@@ -1,0 +1,7 @@
+#52B53D minecraft:air
+#CDE216 modular_machinery_reborn:casing_plain
+#058353 minecraft:cobblestone
+#85E2BA modular_machinery_reborn:controller
+#3BDA30 modular_machinery_reborn:energyinputhatch_reinforced
+#188DC5 modular_machinery_reborn:outputbus_small
+#DC3458 minecraft:stone

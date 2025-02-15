@@ -1,0 +1,5 @@
+#4CA minecraft:dripstone_caves
+#28D minecraft:mangrove_swamp
+#3DC minecraft:plains
+#5FF minecraft:river
+#67B minecraft:savanna

@@ -1,0 +1,11 @@
+#05B minecraft:bamboo_jungle
+#618 minecraft:basalt_deltas
+#556 minecraft:beach
+#570 minecraft:crimson_forest
+#34D minecraft:deep_lukewarm_ocean
+#79A minecraft:lukewarm_ocean
+#653 minecraft:nether_wastes
+#5FF minecraft:river
+#721 minecraft:soul_sand_valley
+#3AF minecraft:sparse_jungle
+#628 minecraft:warped_forest

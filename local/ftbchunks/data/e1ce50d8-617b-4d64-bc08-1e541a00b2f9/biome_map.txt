@@ -1,0 +1,4 @@
+#4F1 minecraft:ocean
+#5FF minecraft:river
+#51A minecraft:stony_shore
+#774 minecraft:sunflower_plains

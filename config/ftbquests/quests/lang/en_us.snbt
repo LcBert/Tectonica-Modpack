@@ -1,0 +1,126 @@
+{
+	chapter.014DFB1632947145.title: "First Machine"
+	chapter.21354A2B56155CC5.title: "Welcome"
+	chapter.36FA252E772AC3EC.title: "Utility"
+	chapter.4313607ADA1C95C0.title: "Ores Convertion"
+	chapter.74713836B2878C38.title: "Start"
+	chapter_group.40FACFCB13293273.title: "Lets Start"
+	file.0000000000000001.title: "Tectonica"
+	quest.0A1D645E5702366D.quest_desc: ["Makes the Stick replaces blocks with the block in your offhand"]
+	quest.0B88B9E8B68E11F9.quest_desc: ["Maintains items in crafting grid when close gui, and interfaces with adjacent chests"]
+	quest.0D09FBDDAC447795.quest_desc: [
+		"This world is preset to let you farm without worrying about:"
+		""
+		"- &6Monster/Hunger&r: The difficulty is set to Peaceful"
+		"- &6Time&r: The time is locked to day"
+		"- &6Weather&r: The weather is locked to clear"
+		"- &6Fall Damage&r: Fall damage is disabled"
+	]
+	quest.1583FEAFD4100D17.quest_desc: [
+		"&6Item Transfer&r: &28 every 15 ticks&r"
+		"&6Fluid Transfer&r: &2100 mB every tick&r"
+		"&6Energy Transfer&r: &21024 FE every tick&r"
+	]
+	quest.16CAAA308A81E5BB.quest_desc: [
+		"&6Item Transfer&r: &264 every tick&r"
+		"&6Fluid Transfer&r: &210000 mB every tick&r"
+		"&6Energy Transfer&r: &2132072 FE every tick&r"
+	]
+	quest.19C39228544CBC08.quest_subtitle: "Transfers Items"
+	quest.19C39228544CBC08.title: "&6Item Pipe&r"
+	quest.1A930AFB93CBC16A.quest_desc: ["Use Smithing Table to apply Templates into Sticks"]
+	quest.22B991423FF19C07.quest_desc: ["Construction Sticks allow you to place multiple blocks at once"]
+	quest.24489A4713724439.quest_desc: [
+		"&6&lMax Construction Blocks&r&r: &21024&r"
+		"&6&lDurability&r&r: &22031&r"
+	]
+	quest.2504F033D693F63E.quest_desc: ["Welcome to my first modpack"]
+	quest.273CB871EDA8FEA5.quest_desc: ["The &6Sample Ore&r is the main material to get all others minerals"]
+	quest.2D137D0413FABE42.quest_subtitle: "Transfers Fluids"
+	quest.2D137D0413FABE42.title: "&3Fluid Pipe&r"
+	quest.2E75C92378BFF27F.quest_desc: ["Crush &eSample Ore&r into &6Sample Dust&r with hammer"]
+	quest.330F907CB31CF3A7.quest_desc: ["Makes the Stick places blocks in mid air"]
+	quest.3599594B0EBD95F5.quest_desc: [
+		"&6&lMax Construction Blocks&r&r: &2128&r"
+		"&6&lDurability&r&r: &21561&r"
+	]
+	quest.3623D55773F951BB.quest_desc: ["Here you can by usefull things spending your money"]
+	quest.3BE2E4B62BAB1FF4.title: "Rust..."
+	quest.3D5C466DA850DB3F.quest_desc: [
+		"&6&lMax Construction Blocks&r&r: &29&r"
+		"&6&lDurability&r&r: &2131&r"
+	]
+	quest.3FA6D1985BA60E26.title: "...and Cobblestone"
+	quest.4486F367825DC7C3.quest_desc: [
+		"&6Item Transfer&r: &232 every 5 ticks&r"
+		"&6Fluid Transfer&r: &22000 mB every tick&r"
+		"&6Energy Transfer&r: &232768 FE every tick&r"
+	]
+	quest.474C17167349EF68.quest_desc: ["Create Templates for using with Building Gadgets"]
+	quest.485B1DB5AD0ED2BB.title: "...hazard..."
+	quest.4A8D0099075D8C84.quest_desc: ["All tools are &6Unbreakable&r except for &cHammer&r and &cReinforced Hammer&r"]
+	quest.4A8D0099075D8C84.title: "Unbreakable Tools"
+	quest.57A44FF7021207E9.title: "Factory Block..."
+	quest.57F322F52039A01C.title: "Sample Extractor Materials List"
+	quest.59EC222D578AF595.quest_desc: ["Like Crafting Station but slab..."]
+	quest.5A2B336D6720AA59.quest_desc: ["The entire world is short of minerals, you can only find Sample Ore"]
+	quest.5A6DD38D44C1801F.title: "Get Wood..."
+	quest.5DD7A66FFF6B3156.quest_desc: ["Portable Crafting Table... Yes"]
+	quest.6530D4170EEF43E7.quest_desc: [
+		"&6Item Transfer&r: &216 every 10 ticks&r"
+		"&6Fluid Transfer&r: &2500 mB every tick&r"
+		"&6Energy Transfer&r: &28192 FE every tick&r"
+	]
+	quest.65F5BE3C5FFFA2EC.quest_desc: ["To craft ores, put 3 &6Raw Sample&r in crafting table, and with Cycle Button, choose the ore"]
+	quest.6B347BCB1C5928DB.quest_desc: ["To autobuild the machine, open gui (click the controller) and click the left button"]
+	quest.6F968C204066EFF1.quest_desc: [
+		"&6&lMax Construction Blocks&r&r: &23&r"
+		"&6&lDurability&r&r: &259&r"
+	]
+	quest.7044322423E5BA36.quest_subtitle: "Transfers Energy"
+	quest.7044322423E5BA36.title: "&cEnergy Pipe&r"
+	quest.71D30A4251892F1B.quest_desc: ["You can craft all &6Factory Blocks&r with chisel"]
+	quest.740BB0BCB3CAD917.quest_subtitle: "Transfers Items, Fluids and Energy"
+	quest.740BB0BCB3CAD917.title: "&8Universal Pipe&r"
+	quest.744B5D767238AAE4.quest_desc: ["Makes the Stick destroys blocks"]
+	quest.75853840A58C9A5F.quest_desc: ["Wash &6Dirty Dusts&r by Right-Click &eWater&r with dust in hand"]
+	quest.7831161CD3DB7473.quest_desc: [
+		"&6&lMax Construction Blocks&r&r: &227&r"
+		"&6&lDurability&r&r: &2250&r"
+	]
+	quest.7A5BA233E5149B93.quest_desc: [
+		"&6Sample Extractor&r extract &eRaw Sample&r from Framented Cobblestone"
+		""
+		"To get &6Framented Cobblestone&r, mine Cobblestone with &eHammer&r"
+	]
+	quest.7B2A7B4C00BA20FF.quest_desc: ["Pipes are used to transfer items, fluids and energy between inventories"]
+	quest.7C8AB31008850B97.title: "...gate..."
+	quest.7E22D21BC3AD05AF.quest_desc: ["To make &6Modularium&r, you need to smelt Basic Raw Sample"]
+	quest.7EF9123506C45F7D.quest_desc: ["Makes the Stick use energy instead of durability"]
+	quest.7F0F6414C875A7A2.quest_desc: ["Crush &eRaw Minerals&r into &6Dirty Dusts&r with Hammer"]
+	quest.7F3A1E85A5ECE85F.quest_desc: ["This pack is centered on Multiblock Machines created with &6Modular Machinery Reborn&r Mod"]
+	quest.7FBE0A6DA21C25E4.quest_desc: ["Makes the Stick unbreakable"]
+	task.0492DEE18F163FB8.title: "The Shop"
+	task.084368C08B5A9C38.title: "Any Logs"
+	task.1274365BD3C58190.title: "...and more"
+	task.14FC1351FC908C04.title: "Upgrades"
+	task.1DC109089ED00612.title: "FTB Ultimine"
+	task.1EE7877F77884217.title: "Find Sample Ore"
+	task.22833599ADA61C40.title: "Waystones"
+	task.2CD9BF7A8C05BB4A.title: "The Shop"
+	task.30B6D5B9535EDBA2.title: "Crafting Tables"
+	task.3662E4C62C0E3E7C.title: "Welcome"
+	task.374A2933730BF474.title: "Building Gadgets"
+	task.3D2BDB02EBFB2D0F.title: "Chisel"
+	task.449BD12376EA3F29.title: "Pipez"
+	task.44DDF8B39BA97EA6.title: "Zoom"
+	task.4542054B37A309A4.title: "Upgrades"
+	task.4616211863064735.title: "Modular Machinery"
+	task.478B30A36B4D7862.title: "Construction Sticks"
+	task.58E6238493F72CBB.title: "Read Me"
+	task.5AC6F886FD2E2385.title: "Only Tech"
+	task.602412DE1C05DB95.title: "Any #minecraft:logs"
+	task.609292F5F2F884C7.title: "Upgrades"
+	task.68E5932359931CC3.title: "No Ores For You"
+	task.7E3E63D6DBAE0FD7.title: "How to craft"
+}

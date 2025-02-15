@@ -1,0 +1,6 @@
+#556 minecraft:beach
+#3D6 minecraft:cold_ocean
+#4CA minecraft:dripstone_caves
+#2D6 minecraft:meadow
+#3DC minecraft:plains
+#5FF minecraft:river

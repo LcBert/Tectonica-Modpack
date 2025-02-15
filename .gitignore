@@ -1,0 +1,32 @@
+# VS Code ProbeJS
+.probe
+.vscode
+kubejs\client_scripts\jsconfig.json
+kubejs\server_scripts\jsconfig.json
+kubejs\startup_scripts\jsconfig.json
+
+# Saves folder
+saves
+backups
+
+# Logs
+crash-reports
+debug
+logs
+
+# User Options
+realms_persistence.json
+usercache.json
+usernamecache.json
+user-prefs.json
+command_history.txt
+options.txt
+
+# Extreme Sound Muffler
+ESM
+
+# CurseForge Options
+.curseclient
+
+# Other
+cherishedworlds-favorites.dat

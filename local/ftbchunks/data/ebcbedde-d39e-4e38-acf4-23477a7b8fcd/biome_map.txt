@@ -1,0 +1,5 @@
+#556 minecraft:beach
+#3DE minecraft:deep_ocean
+#4F1 minecraft:ocean
+#1DF minecraft:old_growth_birch_forest
+#579 minecraft:windswept_savanna

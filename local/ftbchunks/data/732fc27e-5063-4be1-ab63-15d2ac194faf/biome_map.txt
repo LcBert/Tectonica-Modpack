@@ -1,0 +1,9 @@
+#6F6 minecraft:badlands
+#008 minecraft:desert
+#4CA minecraft:dripstone_caves
+#614 minecraft:eroded_badlands
+#010 minecraft:forest
+#3DC minecraft:plains
+#5FF minecraft:river
+#67B minecraft:savanna
+#706 minecraft:savanna_plateau
