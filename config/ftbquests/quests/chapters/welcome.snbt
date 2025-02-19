@@ -1,8 +1,9 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: "rsquare"
+	disable_toast: true
 	filename: "welcome"
-	group: ""
+	group: "502CBD577B96DEC3"
 	icon: {
 		components: {
 			"ftbquests:icon": "ftbchunks:textures/waypoint_home.png"
@@ -14,6 +15,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			disable_toast: true
 			icon: {
 				components: {
 					"ftbquests:icon": "ftbchunks:textures/waypoint_home.png"
@@ -31,6 +33,7 @@
 		}
 		{
 			dependencies: ["2504F033D693F63E"]
+			disable_toast: true
 			icon: {
 				components: {
 					"ftbquests:icon": "modular_machinery_reborn:block/overlay_controller"
@@ -56,36 +59,7 @@
 		}
 		{
 			dependencies: ["2504F033D693F63E"]
-			icon: {
-				id: "minecraft:netherite_pickaxe"
-			}
-			icon_scale: 1.3d
-			id: "4A8D0099075D8C84"
-			tasks: [{
-				id: "1DC109089ED00612"
-				type: "checkmark"
-			}]
-			x: 1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2504F033D693F63E"]
-			icon: {
-				components: {
-					"ftbquests:icon": "tectonica:block/sample_ore"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "5A2B336D6720AA59"
-			tasks: [{
-				id: "68E5932359931CC3"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["2504F033D693F63E"]
+			disable_toast: true
 			icon: {
 				components: {
 					"ftbquests:icon": "factory_blocks:block/factory"
@@ -93,13 +67,24 @@
 				id: "ftbquests:custom_icon"
 			}
 			id: "0D09FBDDAC447795"
-			min_width: 270
+			min_width: 220
 			tasks: [{
 				id: "5AC6F886FD2E2385"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["2504F033D693F63E"]
+			disable_toast: true
+			id: "2E289B93BE1D5921"
+			tasks: [{
+				id: "59FDDAC48D19042B"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
 		}
 	]
 }

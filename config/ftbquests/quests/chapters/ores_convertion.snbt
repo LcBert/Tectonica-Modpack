@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "ores_convertion"
-	group: ""
+	group: "502CBD577B96DEC3"
 	icon: {
 		components: {
-			"ftbquests:icon": "tectonica:block/sample_ore"
+			"ftbquests:icon": "minecraft:block/deepslate_iron_ore"
 		}
 		id: "ftbquests:custom_icon"
 	}
@@ -16,7 +16,7 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "tectonica:block/sample_ore"
+					"ftbquests:icon": "minecraft:block/deepslate_iron_ore"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -38,7 +38,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -1.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["45687348B147D410"]
@@ -49,7 +49,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["45687348B147D410"]
@@ -60,7 +60,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -1.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["45687348B147D410"]
@@ -71,7 +71,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: -1.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["45687348B147D410"]
@@ -82,7 +82,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -1.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["45687348B147D410"]
@@ -93,7 +93,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: -1.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["45687348B147D410"]
@@ -104,7 +104,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -1.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["45687348B147D410"]
@@ -115,7 +115,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: -1.5d
+			y: -0.75d
 		}
 		{
 			dependencies: ["65F5BE3C5FFFA2EC"]
@@ -126,7 +126,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 0.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["0C60FD6B755B8FD9"]
@@ -137,7 +137,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["0C60FD6B755B8FD9"]
@@ -148,7 +148,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["2964A3BB1E9399C5"]
@@ -159,7 +159,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 1.5d
+			y: 2.25d
 		}
 		{
 			dependencies: ["65F5BE3C5FFFA2EC"]
@@ -170,7 +170,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 1.5d
+			y: 2.25d
 		}
 		{
 			dependencies: ["0C60FD6B755B8FD9"]
@@ -181,7 +181,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 0.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["2964A3BB1E9399C5"]
@@ -192,7 +192,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.5d
+			y: 2.25d
 		}
 		{
 			dependencies: ["0C60FD6B755B8FD9"]
@@ -203,7 +203,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 0.0d
+			y: 0.75d
 		}
 		{
 			dependencies: ["2964A3BB1E9399C5"]
@@ -214,7 +214,95 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 1.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["65F5BE3C5FFFA2EC"]
+			id: "31D61AD764A40A9D"
+			tasks: [{
+				id: "15EFCFA1BDE38359"
+				item: { count: 1, id: "tectonica:dust_sample" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.25d
+		}
+		{
+			dependencies: ["31D61AD764A40A9D"]
+			id: "07BAD36260A7D3EE"
+			tasks: [{
+				id: "3470B44B706E6406"
+				item: { count: 1, id: "alltheores:cinnabar_dust" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["31D61AD764A40A9D"]
+			id: "28FBAB31048B81E4"
+			tasks: [{
+				id: "567A1A556C0F3898"
+				item: { count: 1, id: "minecraft:glowstone_dust" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["31D61AD764A40A9D"]
+			id: "57793FA89F2CAC8A"
+			tasks: [{
+				id: "6FF7A9FF1F833E0F"
+				item: { count: 1, id: "tectonica:coal_dust" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["31D61AD764A40A9D"]
+			id: "5C42EFEBD0E73131"
+			tasks: [{
+				id: "57D40448A4E17830"
+				item: { count: 1, id: "alltheores:sapphire_dust" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["31D61AD764A40A9D"]
+			id: "1C1106018220A98A"
+			tasks: [{
+				id: "74719BFFFD659C39"
+				item: { count: 1, id: "waystones:warp_dust" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["31D61AD764A40A9D"]
+			id: "7ABEBD82A4C59351"
+			tasks: [{
+				id: "5B1375E7DDE3BBE2"
+				item: { count: 1, id: "alltheores:diamond_dust" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["31D61AD764A40A9D"]
+			id: "7B35AD95A00284EA"
+			tasks: [{
+				id: "5606F1D0BC38E045"
+				item: { count: 1, id: "alltheores:peridot_dust" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.25d
 		}
 	]
 }

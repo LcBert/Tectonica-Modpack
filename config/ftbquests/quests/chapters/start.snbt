@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "start"
-	group: "40FACFCB13293273"
+	group: "7519B328FBDC6BB2"
 	icon: {
 		id: "modular_machinery_reborn:modularium"
 	}
@@ -21,43 +21,9 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5A6DD38D44C1801F"]
-			id: "3FA6D1985BA60E26"
-			tasks: [{
-				id: "72E372769A503F12"
-				item: { count: 1, id: "minecraft:cobblestone" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["3FA6D1985BA60E26"]
-			id: "057730E5021E3054"
-			tasks: [{
-				id: "743F27502F8BEA58"
-				item: { count: 1, id: "minecraft:stone_pickaxe" }
-				type: "item"
-			}]
-			x: 3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["273CB871EDA8FEA5"]
-			id: "7A3D7C12649AF0E1"
-			tasks: [{
-				id: "79C9F3BACC3B7747"
-				item: { count: 1, id: "minecraft:furnace" }
-				type: "item"
-			}]
-			x: 5.25d
-			y: -1.25d
-		}
-		{
-			dependencies: ["057730E5021E3054"]
+			dependencies: ["5BD03351291373E1"]
 			id: "273CB871EDA8FEA5"
 			rewards: [{
-				count: 5
 				id: "0CD9BD0EA2735D7E"
 				item: {
 					count: 1
@@ -65,25 +31,13 @@
 				}
 				type: "item"
 			}]
-			tasks: [
-				{
-					icon: {
-						id: "tectonica:sample_ore"
-					}
-					id: "1EE7877F77884217"
-					observe_type: 0
-					timer: 0L
-					to_observe: "tectonica:sample_ore"
-					type: "observation"
-				}
-				{
-					id: "7108FAA2AE55698A"
-					item: { count: 1, id: "tectonica:basic_raw_sample" }
-					type: "item"
-				}
-			]
-			x: 4.5d
-			y: 0.0d
+			tasks: [{
+				id: "7108FAA2AE55698A"
+				item: { count: 1, id: "tectonica:basic_raw_sample" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["273CB871EDA8FEA5"]
@@ -103,14 +57,11 @@
 				item: { count: 1, id: "minecraft:raw_iron" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.5d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
-			dependencies: [
-				"273CB871EDA8FEA5"
-				"7A3D7C12649AF0E1"
-			]
+			dependencies: ["273CB871EDA8FEA5"]
 			id: "7E22D21BC3AD05AF"
 			rewards: [{
 				count: 3
@@ -126,8 +77,8 @@
 				item: { count: 1, id: "modular_machinery_reborn:modularium" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -149,24 +100,32 @@
 				item: { count: 1, id: "tectonica:dirty_iron_dust" }
 				type: "item"
 			}]
-			x: 5.25d
-			y: 3.0d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7E22D21BC3AD05AF"]
+			icon: {
+				id: "tectonica:hammer"
+			}
 			id: "6CEC90480CDAD11A"
-			tasks: [{
-				id: "4E274AFB471AFF69"
-				item: { count: 1, id: "tectonica:hammer" }
-				type: "item"
+			min_width: 212
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "31DA6B9340A1DA20"
+				type: "random"
 			}]
-			x: 6.0d
-			y: 1.5d
+			tasks: [{
+				id: "071F0F8526667600"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
-				"3CF9D3A826D3C586"
 				"31B30E4059C30A80"
+				"29706512ED83BC88"
 			]
 			id: "2E089CD2428E98FC"
 			rewards: [{
@@ -185,11 +144,11 @@
 				item: { count: 1, id: "modular_machinery_reborn:casing_plain" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.0d
+			x: 0.0d
+			y: 7.5d
 		}
 		{
-			dependencies: ["75853840A58C9A5F"]
+			dependencies: ["7F0F6414C875A7A2"]
 			id: "2B0DAC4C2690EDB6"
 			rewards: [{
 				count: 3
@@ -205,63 +164,184 @@
 				item: { count: 1, id: "alltheores:iron_dust" }
 				type: "item"
 			}]
-			x: 8.25d
-			y: 3.0d
-		}
-		{
-			dependencies: ["7F0F6414C875A7A2"]
-			id: "75853840A58C9A5F"
-			rewards: [{
-				id: "2B4B334AD036C5F8"
-				item: {
-					count: 1
-					id: "minecraft:water_bucket"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "143359D5C6F33025"
-				type: "checkmark"
-			}]
-			x: 6.75d
-			y: 3.0d
-		}
-		{
-			dependencies: ["2B0DAC4C2690EDB6"]
-			id: "351E466B1305738F"
-			tasks: [{
-				id: "43A805A81E0257DD"
-				item: { count: 1, id: "minecraft:iron_ingot" }
-				type: "item"
-			}]
-			x: 8.25d
-			y: 4.5d
-		}
-		{
-			dependencies: ["351E466B1305738F"]
-			id: "3CF9D3A826D3C586"
-			rewards: [{
-				id: "1F7E3A44BC2183FB"
-				item: {
-					count: 1
-					id: "alltheores:iron_plate"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "5AE79BCB8F8E8841"
-				item: { count: 1, id: "alltheores:iron_plate" }
-				type: "item"
-			}]
-			x: 6.75d
-			y: 4.5d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["273CB871EDA8FEA5"]
 			id: "2E75C92378BFF27F"
+			rewards: [{
+				count: 3
+				id: "78851A867C72B6B9"
+				item: {
+					count: 1
+					id: "tectonica:dust_sample"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6A3AA3FF8C973487"
 				item: { count: 1, id: "tectonica:dust_sample" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0DDB6420D4374162"]
+			id: "31B30E4059C30A80"
+			rewards: [{
+				count: 2
+				id: "07C1428E6B8D7111"
+				item: {
+					count: 1
+					id: "minecraft:redstone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "10E915BECD6B0A28"
+				item: { count: 1, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5A6DD38D44C1801F"]
+			id: "7117AA0C93D3EB03"
+			tasks: [{
+				id: "18161C735952B76B"
+				item: { count: 1, id: "tectonica:pebble_extractor" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7117AA0C93D3EB03"]
+			id: "436D983F3A182942"
+			rewards: [{
+				id: "0503D4717D1CB743"
+				item: {
+					count: 1
+					id: "tectonica:hammer"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "222AFCA8FFD19B39"
+					item: { count: 1, id: "tectonica:stone_pebble" }
+					type: "item"
+				}
+				{
+					id: "6BB4F3259136632F"
+					item: { count: 1, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49BE596EA176C832"]
+			id: "5BD03351291373E1"
+			tasks: [{
+				id: "65505F2B11FF25E5"
+				item: { count: 1, id: "tectonica:framented_cobblestone" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1A90F544E4B3D560"
+				"71E0CAAC678BE34E"
+			]
+			icon: {
+				components: {
+					"modular_machinery_reborn:machine": "mmr:sample_extractor"
+				}
+				id: "modular_machinery_reborn:controller"
+			}
+			id: "49BE596EA176C832"
+			rewards: [
+				{
+					count: 3
+					id: "77893BB8906C6820"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:casing_plain"
+					}
+					type: "item"
+				}
+				{
+					id: "5B8238BE6BF294E5"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:inputbus_tiny"
+					}
+					type: "item"
+				}
+				{
+					id: "5CE0F3770C462306"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:outputbus_tiny"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0DE7E61F975AA75F"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:sample_extractor" }, count: 1, id: "modular_machinery_reborn:controller" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B0DAC4C2690EDB6"]
+			id: "5F580AC4A454B596"
+			tasks: [{
+				id: "33E5CACF354F8D02"
+				item: { count: 1, id: "alltheores:steel_dust" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5F580AC4A454B596"]
+			id: "41DB46D58A5FF453"
+			tasks: [{
+				id: "53821F959EB224DE"
+				item: { count: 1, id: "alltheores:steel_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["41DB46D58A5FF453"]
+			id: "29706512ED83BC88"
+			tasks: [{
+				id: "05CA040C8C5E2D76"
+				item: { count: 1, id: "alltheores:steel_plate" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["436D983F3A182942"]
+			id: "1A90F544E4B3D560"
+			tasks: [{
+				id: "5A203C971CF0EF9A"
+				item: { count: 1, id: "minecraft:stone" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -269,14 +349,65 @@
 		}
 		{
 			dependencies: ["2E75C92378BFF27F"]
-			id: "31B30E4059C30A80"
-			tasks: [{
-				id: "10E915BECD6B0A28"
-				item: { count: 1, id: "minecraft:redstone" }
+			id: "40C1A1E4DA03B8DC"
+			rewards: [{
+				count: 3
+				id: "2831863B5522CC26"
+				item: {
+					count: 1
+					id: "tectonica:coal_dust"
+				}
 				type: "item"
 			}]
-			x: 3.0d
+			tasks: [{
+				id: "107846F47744C8EA"
+				item: { count: 1, id: "tectonica:coal_dust" }
+				type: "item"
+			}]
+			x: -1.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["40C1A1E4DA03B8DC"]
+			id: "0F97AC06E9B40154"
+			tasks: [{
+				id: "1E8CDD4A05238C2A"
+				item: { count: 1, id: "minecraft:coal" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5A6DD38D44C1801F"]
+			id: "71E0CAAC678BE34E"
+			tasks: [{
+				id: "5E4A340D815A8678"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2E75C92378BFF27F"]
+			id: "0DDB6420D4374162"
+			rewards: [{
+				count: 3
+				id: "4D4B642E8B2B3FD2"
+				item: {
+					count: 1
+					id: "alltheores:cinnabar_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "04DAD0A720AD9AB7"
+				item: { count: 1, id: "alltheores:cinnabar_dust" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
 		}
 	]
 }

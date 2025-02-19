@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "utility"
-	group: ""
+	group: "502CBD577B96DEC3"
 	icon: {
 		components: {
 			"ftbquests:icon": "minecraft:textures/particle/nautilus.png"
@@ -80,6 +80,7 @@
 			y: 6.25d
 		}
 		{
+			hide_dependent_lines: true
 			icon: {
 				components: {
 					"ftbquests:icon": "minecraft:textures/particle/nautilus.png"
@@ -425,7 +426,7 @@
 				type: "checkmark"
 			}]
 			x: -3.0d
-			y: 2.25d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7551BCFF6080E535"]
@@ -435,8 +436,8 @@
 				item: { count: 1, id: "buildinggadgets2:gadget_exchanging" }
 				type: "item"
 			}]
-			x: -5.75d
-			y: 3.0d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7551BCFF6080E535"]
@@ -446,8 +447,8 @@
 				item: { count: 1, id: "buildinggadgets2:gadget_building" }
 				type: "item"
 			}]
-			x: -4.75d
-			y: 3.0d
+			x: -4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7551BCFF6080E535"]
@@ -457,8 +458,8 @@
 				item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
 				type: "item"
 			}]
-			x: -4.75d
-			y: 4.0d
+			x: -5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7551BCFF6080E535"]
@@ -468,8 +469,8 @@
 				item: { components: { "buildinggadgets2:paste_replace_toggle": 1b }, count: 1, id: "buildinggadgets2:gadget_cut_paste" }
 				type: "item"
 			}]
-			x: -3.75d
-			y: 4.0d
+			x: -5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7551BCFF6080E535"]
@@ -479,8 +480,8 @@
 				item: { count: 1, id: "buildinggadgets2:gadget_destruction" }
 				type: "item"
 			}]
-			x: -3.75d
-			y: 5.0d
+			x: -4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7551BCFF6080E535"]
@@ -498,8 +499,8 @@
 				item: { count: 1, id: "buildinggadgets2:template_manager" }
 				type: "item"
 			}]
-			x: -3.75d
-			y: 3.0d
+			x: -4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["66853A55F7C47B30"]
@@ -536,6 +537,94 @@
 			}]
 			x: -3.0d
 			y: -3.25d
+		}
+		{
+			dependencies: ["66853A55F7C47B30"]
+			icon: {
+				id: "fluxnetworks:flux_core"
+			}
+			id: "2CF82BCC530D02C8"
+			rewards: [{
+				id: "5CE896A2B638B35E"
+				item: {
+					count: 1
+					id: "fluxnetworks:flux_configurator"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0C0963C52D219999"
+				type: "checkmark"
+			}]
+			x: -2.75d
+			y: 7.25d
+		}
+		{
+			dependencies: ["2CF82BCC530D02C8"]
+			id: "093B61BF69E3887B"
+			tasks: [{
+				id: "7AEA104D3008817C"
+				item: { count: 1, id: "fluxnetworks:flux_plug" }
+				type: "item"
+			}]
+			x: -2.75d
+			y: 8.25d
+		}
+		{
+			dependencies: ["2CF82BCC530D02C8"]
+			id: "3929A8986247C6ED"
+			tasks: [{
+				id: "56F3789192CEE142"
+				item: { count: 1, id: "fluxnetworks:flux_point" }
+				type: "item"
+			}]
+			x: -2.75d
+			y: 6.25d
+		}
+		{
+			dependencies: ["2CF82BCC530D02C8"]
+			id: "24F0383C66B9FA38"
+			tasks: [{
+				id: "2C723F7A36143D99"
+				item: { count: 1, id: "fluxnetworks:basic_flux_storage" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["24F0383C66B9FA38"]
+			id: "083656261EB421C9"
+			tasks: [{
+				id: "0624A009EB1A930B"
+				item: { count: 1, id: "fluxnetworks:herculean_flux_storage" }
+				type: "item"
+			}]
+			x: -4.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["083656261EB421C9"]
+			id: "63545E4EBCA782F3"
+			tasks: [{
+				id: "7B155D0569F64870"
+				item: { count: 1, id: "fluxnetworks:gargantuan_flux_storage" }
+				type: "item"
+			}]
+			x: -5.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["2CF82BCC530D02C8"]
+			id: "41C4F96AED2E13E3"
+			tasks: [{
+				id: "4549A203B9952FBC"
+				item: { count: 1, id: "fluxnetworks:flux_controller" }
+				type: "item"
+			}]
+			x: -3.75d
+			y: 7.75d
 		}
 	]
 }

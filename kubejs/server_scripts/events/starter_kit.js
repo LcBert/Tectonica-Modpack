@@ -1,3 +1,14 @@
+function give_starter_kit(player) {
+    let starter_kit = [
+        { item: "minecraft:wooden_pickaxe", count: 1 },
+        { item: "minecraft:wooden_axe", count: 1 },
+        { item: "minecraft:torch", count: 16 },
+        { item: "ftbquests:book", count: 1 },
+    ]
+
+    starter_kit.forEach(item => { player.give(Item.of(item.item, item.count)) })
+}
+
 PlayerEvents.loggedIn(event => {
     if (!event.player.getStages().has("first_join")) {
         give_starter_kit(event.player)
@@ -51,15 +62,3 @@ ServerEvents.commandRegistry(event => {
             })
     )
 })
-
-
-function give_starter_kit(player) {
-    let starter_kit = [
-        { item: "minecraft:wooden_pickaxe", count: 1 },
-        { item: "minecraft:wooden_axe", count: 1 },
-        { item: "minecraft:torch", count: 16 },
-        { item: "ftbquests:book", count: 1 },
-    ]
-
-    starter_kit.forEach(item => { player.give(Item.of(item.item, item.count)) })
-}

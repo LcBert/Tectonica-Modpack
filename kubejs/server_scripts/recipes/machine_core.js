@@ -4,8 +4,8 @@ ServerEvents.recipes(event => {
         "BCB",
         "ABA"
     ], {
-        A: "alltheores:iron_plate",
+        A: "alltheores:signalum_plate",
         B: "modular_machinery_reborn:casing_plain",
-        C: "alltheores:copper_gear"
+        C: "modular_machinery_reborn:casing_circuitry"
     })
 })

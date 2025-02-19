@@ -20,7 +20,7 @@ dust_ores.forEach(ore => {
         if (event.getTarget().block.id == "minecraft:water") {
             event.player.setMainHandItem(Item.of(event.item.id, event.item.count - 1))
 
-            event.level.spawnParticles("minecraft:splash", true, event.getTarget().getHitX(), event.getTarget().getHitY(), event.getTarget().getHitZ(), 0, 0, 0, 5, 1)
+            event.level.spawnParticles("minecraft:splash", false, event.getTarget().getHitX(), event.getTarget().getHitY(), event.getTarget().getHitZ(), 0, 0, 0, 5, 1)
             event.level.runCommandSilent("/playsound minecraft:block.water.ambient master @a " + event.getTarget().getHitX() + " " + event.getTarget().getHitY() + " " + event.getTarget().getHitZ() + " 1 1")
 
             let entity = event.level.createEntity("minecraft:item")

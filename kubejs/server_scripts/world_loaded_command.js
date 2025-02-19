@@ -1,8 +1,4 @@
 LevelEvents.loaded(event => {
-    // Difficulty
-    event.server.runCommandSilent("difficulty peaceful")
-    event.server.setDifficultyLocked(true)
-
     // Disable fall damage
     event.server.runCommandSilent("gamerule fallDamage false")
 
@@ -16,4 +12,7 @@ LevelEvents.loaded(event => {
 
     // Disable Announce Advancements
     event.server.runCommandSilent("gamerule announceAdvancements false")
+
+    // Disable Mob Spawn
+    event.server.runCommandSilent("gamerule doMobSpawning false")
 })

@@ -1,0 +1,88 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "energy_production"
+	group: "7519B328FBDC6BB2"
+	icon: {
+		id: "tectonica:basic_machine_core"
+	}
+	id: "5B070AB2F52BD72D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2E089CD2428E98FC"]
+			id: "12C04537DB70E50E"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "19650DCFDCBCCF02"
+				item: { count: 1, id: "tectonica:basic_machine_core" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12C04537DB70E50E"]
+			id: "57160D649B5F1595"
+			tasks: [{
+				id: "6958A6534D365EDC"
+				item: { components: { "modular_machinery_reborn:machine": "mmr:steam_generator" }, count: 1, id: "modular_machinery_reborn:controller" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["57160D649B5F1595"]
+			icon: {
+				id: "modular_machinery_reborn:blueprint"
+			}
+			id: "45CC9D017521123B"
+			tasks: [
+				{
+					count: 5L
+					id: "18E63C8F73A3A804"
+					item: { count: 3, id: "modular_machinery_reborn:casing_plain" }
+					type: "item"
+				}
+				{
+					id: "758FC288D50E6870"
+					item: { count: 1, id: "modular_machinery_reborn:inputbus_tiny" }
+					type: "item"
+				}
+				{
+					id: "23C0C842712F71A6"
+					item: { count: 1, id: "modular_machinery_reborn:fluidinputhatch_tiny" }
+					type: "item"
+				}
+				{
+					id: "66BE57E3886D2EB6"
+					item: { count: 1, id: "modular_machinery_reborn:energyoutputhatch_tiny" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5A957CED8FAE0FB6"
+					item: { count: 2, id: "modular_machinery_reborn:casing_vent" }
+					type: "item"
+				}
+				{
+					id: "469ED8A21A08A1C2"
+					item: { count: 1, id: "modular_machinery_reborn:casing_firebox" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "7D74BCE4AB423971"
+					item: { count: 3, id: "minecraft:iron_bars" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+	]
+}

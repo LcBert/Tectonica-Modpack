@@ -12,8 +12,6 @@ ServerEvents.recipes(event => {
     event.shapeless("tectonica:dirty_uranium_dust", ["#tectonica:hammer", "2x alltheores:raw_uranium"]).id("tectonica:hammer/crushing/dirty_uranium_dust").damageIngredient(0, 1).damageIngredient(1, 1).damageIngredient(2, 1).damageIngredient(3, 1).damageIngredient(4, 1).damageIngredient(5, 1).damageIngredient(6, 1).damageIngredient(7, 1).damageIngredient(8, 1).damageIngredient(9, 1)
     event.shapeless("tectonica:dirty_zinc_dust", ["#tectonica:hammer", "2x alltheores:raw_zinc"]).id("tectonica:hammer/crushing/dirty_zinc_dust").damageIngredient(0, 1).damageIngredient(1, 1).damageIngredient(2, 1).damageIngredient(3, 1).damageIngredient(4, 1).damageIngredient(5, 1).damageIngredient(6, 1).damageIngredient(7, 1).damageIngredient(8, 1).damageIngredient(9, 1)
     event.shapeless("tectonica:dirty_iridium_dust", ["#tectonica:hammer", "2x alltheores:raw_iridium"]).id("tectonica:hammer/crushing/dirty_iridium_dust").damageIngredient(0, 1).damageIngredient(1, 1).damageIngredient(2, 1).damageIngredient(3, 1).damageIngredient(4, 1).damageIngredient(5, 1).damageIngredient(6, 1).damageIngredient(7, 1).damageIngredient(8, 1).damageIngredient(9, 1)
-    
-    event.shapeless("tectonica:coal_dust", ["#tectonica:hammer", "2x #minecraft:coals"]).id("tectonica:hammer/crushing/coal_dust").damageIngredient(0, 1).damageIngredient(1, 1).damageIngredient(2, 1).damageIngredient(3, 1).damageIngredient(4, 1).damageIngredient(5, 1).damageIngredient(6, 1).damageIngredient(7, 1).damageIngredient(8, 1).damageIngredient(9, 1)
 
 
     event.remove({ "type": "minecraft:smelting", "input": "#c:raw_materials" })
@@ -22,4 +20,5 @@ ServerEvents.recipes(event => {
     event.remove({ "type": "minecraft:blasting", "input": "#c:storage_blocks" })
     event.remove({ "type": "minecraft:smelting", "input": "#c:ores" })
     event.remove({ "type": "minecraft:blasting", "input": "#c:ores" })
+    event.remove({ "type": "minecraft:smelting", "output": "minecraft:charcoal" })
 })

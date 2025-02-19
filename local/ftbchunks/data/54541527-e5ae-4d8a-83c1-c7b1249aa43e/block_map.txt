@@ -1,0 +1,5 @@
+#52B53D minecraft:air
+#058353 minecraft:cobblestone
+#80497A minecraft:dirt
+#3F84B7 minecraft:grass_block
+#DC3458 minecraft:stone

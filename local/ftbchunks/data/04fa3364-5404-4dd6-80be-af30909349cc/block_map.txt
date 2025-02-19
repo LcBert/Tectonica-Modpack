@@ -1,0 +1,4 @@
+#52B53D minecraft:air
+#058353 minecraft:cobblestone
+#85E2BA modular_machinery_reborn:controller
+#DC3458 minecraft:stone

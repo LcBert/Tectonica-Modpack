@@ -1,0 +1,4 @@
+#52B53D minecraft:air
+#840F59 minecraft:bedrock
+#80497A minecraft:dirt
+#3F84B7 minecraft:grass_block

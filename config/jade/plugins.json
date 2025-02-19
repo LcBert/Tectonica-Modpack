@@ -79,8 +79,8 @@
   "gravestone": {
     "grave": true
   },
-  "custommachinery": {
-    "machine_component_provider": true
+  "balm": {
+    "jade": true
   },
   "modular_machinery_reborn": {
     "machine_component_provider": true

@@ -1,13 +1,13 @@
 ServerEvents.recipes(event => {
-    event.shaped("modular_machinery_reborn:controller[modular_machinery_reborn:machine='mmr:sample_extractor']", [
+    event.shaped('modular_machinery_reborn:controller[modular_machinery_reborn:machine="mmr:sample_extractor"]', [
         "ABA",
         "BCB",
         "ABA"
     ], {
-        A: "alltheores:iron_plate",
-        B: "minecraft:redstone",
-        C: "tectonica:basic_machine_core",
-    })
+        A: "minecraft:stone",
+        B: "#minecraft:planks",
+        C: "#tectonica:hammer"
+    }).id("tectonica:mmr/sample_extractor").damageIngredient(4, 1)
 })
 
 MMREvents.machines(event => {

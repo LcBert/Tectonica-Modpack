@@ -1,0 +1,15 @@
+#0F359D minecraft:azure_bluet
+#CC07F6 minecraft:cornflower
+#468304 minecraft:crafting_table
+#B2A2E1 minecraft:dandelion
+#80497A minecraft:dirt
+#4FA7D0 minecraft:dirt_path
+#3F84B7 minecraft:grass_block
+#AD9EB5 minecraft:oak_leaves
+#8F6314 minecraft:orange_tulip
+#F6678E minecraft:oxeye_daisy
+#36285C minecraft:pink_tulip
+#AFAC0D minecraft:poppy
+#E6B35B minecraft:pumpkin
+#465F37 minecraft:red_tulip
+#1B60CF minecraft:white_tulip
