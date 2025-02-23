@@ -24,16 +24,16 @@
 			dependencies: ["5BD03351291373E1"]
 			id: "273CB871EDA8FEA5"
 			rewards: [{
-				id: "0CD9BD0EA2735D7E"
+				id: "4D83C56C13A1176D"
 				item: {
 					count: 1
-					id: "tectonica:basic_raw_sample"
+					id: "tectonica:raw_sample"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				id: "7108FAA2AE55698A"
-				item: { count: 1, id: "tectonica:basic_raw_sample" }
+				id: "3DDF2A7561FD55AA"
+				item: { count: 1, id: "tectonica:raw_sample" }
 				type: "item"
 			}]
 			x: 1.5d

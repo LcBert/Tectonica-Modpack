@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
     event.remove({ output: "modular_machinery_reborn:modularium" })
-    event.smelting("modular_machinery_reborn:modularium", "tectonica:basic_raw_sample")
-    event.blasting("modular_machinery_reborn:modularium", "tectonica:basic_raw_sample")
+    event.smelting("modular_machinery_reborn:modularium", "tectonica:raw_sample")
+    event.blasting("modular_machinery_reborn:modularium", "tectonica:raw_sample")
 
     event.remove({ id: "modular_machinery_reborn:casing_plain" })
     event.remove({ id: "modular_machinery_reborn:casing_firebox" })

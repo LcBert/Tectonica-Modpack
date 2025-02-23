@@ -17,9 +17,9 @@ LootJS.lootTables(event => {
 })
 
 ServerEvents.recipes(event => {
-    tier1ores.forEach(ore => { event.shapeless(ore, "2x tectonica:basic_raw_sample").id("tectonica:" + ore.split(":")[1] + "_from_basic_raw_sample") })
-    tier2ores.forEach(ore => { event.shapeless(ore, "4x tectonica:basic_raw_sample").id("tectonica:" + ore.split(":")[1] + "_from_basic_raw_sample") })
-    tier3ores.forEach(ore => { event.shapeless(ore, "8x tectonica:basic_raw_sample").id("tectonica:" + ore.split(":")[1] + "_from_basic_raw_sample") })
+    tier1ores.forEach(ore => { event.shapeless(ore, "2x tectonica:raw_sample").id("tectonica:" + ore.split(":")[1] + "_from_raw_sample") })
+    tier2ores.forEach(ore => { event.shapeless(ore, "4x tectonica:raw_sample").id("tectonica:" + ore.split(":")[1] + "_from_raw_sample") })
+    tier3ores.forEach(ore => { event.shapeless(ore, "8x tectonica:raw_sample").id("tectonica:" + ore.split(":")[1] + "_from_raw_sample") })
 
     event.shapeless("tectonica:dirty_iron_dust", ["#tectonica:hammer", "minecraft:raw_iron"]).id("tectonica:hammer/crushing/dirty_iron_dust").damageIngredient(0, 1).damageIngredient(1, 1).damageIngredient(2, 1).damageIngredient(3, 1).damageIngredient(4, 1).damageIngredient(5, 1).damageIngredient(6, 1).damageIngredient(7, 1).damageIngredient(8, 1).damageIngredient(9, 1)
     event.shapeless("tectonica:dirty_copper_dust", ["#tectonica:hammer", "minecraft:raw_copper"]).id("tectonica:hammer/crushing/dirty_copper_dust").damageIngredient(0, 1).damageIngredient(1, 1).damageIngredient(2, 1).damageIngredient(3, 1).damageIngredient(4, 1).damageIngredient(5, 1).damageIngredient(6, 1).damageIngredient(7, 1).damageIngredient(8, 1).damageIngredient(9, 1)

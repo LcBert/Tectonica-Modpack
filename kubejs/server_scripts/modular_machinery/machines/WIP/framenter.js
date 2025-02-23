@@ -35,7 +35,7 @@ ServerEvents.recipes(event => {
         { input: "alltheores:raw_uranium", output: "tectonica:dirty_uranium_dust" },
         { input: "alltheores:raw_zinc", output: "tectonica:dirty_zinc_dust" },
         { input: "alltheores:raw_iridium", output: "tectonica:dirty_iridium_dust" },
-        { input: "tectonica:basic_raw_sample", output: "2x tectonica:dust_sample" }
+        { input: "tectonica:raw_sample", output: "2x tectonica:dust_sample" }
     ]
 
     let recipe_clump = [

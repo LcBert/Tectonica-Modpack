@@ -1,7 +1,6 @@
 {
 	chapter.21354A2B56155CC5.title: "Welcome"
 	chapter.36FA252E772AC3EC.title: "Utility"
-	chapter.4313607ADA1C95C0.title: "Ores Convertion"
 	chapter.5B070AB2F52BD72D.title: "Energy Production"
 	chapter.74713836B2878C38.title: "Start"
 	chapter_group.502CBD577B96DEC3.title: "Welcome"
@@ -47,7 +46,7 @@
 	quest.2D137D0413FABE42.quest_subtitle: "Transfers Fluids"
 	quest.2D137D0413FABE42.title: "&3Fluid Pipe&r"
 	quest.2E289B93BE1D5921.quest_desc: ["The Dirty Dusts, Clumps, Shards and Crystals textures are taken from &n&6Alltheores Mod&r which unfortunately doesn't add these elements"]
-	quest.2E75C92378BFF27F.quest_desc: ["Crush &eBasic Raw Sample&r into &6Dust Sample&r with hammer"]
+	quest.2E75C92378BFF27F.quest_desc: ["Crush &eRaw Sample&r into &6Dust Sample&r with hammer"]
 	quest.330F907CB31CF3A7.quest_desc: ["Makes the Stick places blocks in mid air"]
 	quest.3599594B0EBD95F5.quest_desc: [
 		"&6&lMax Construction Blocks&r&r: &2128&r"
@@ -72,7 +71,7 @@
 	]
 	quest.474C17167349EF68.quest_desc: ["Create Templates for using with Building Gadgets"]
 	quest.485B1DB5AD0ED2BB.title: "...hazard..."
-	quest.48BA50D7171856CF.quest_desc: ["Craft &6Raw Iron&r with &eBasic Raw Sample&r"]
+	quest.48BA50D7171856CF.quest_desc: ["Craft &6Raw Iron&r with &eRaw Sample&r"]
 	quest.49BE596EA176C832.quest_desc: [
 		"Extract &6Basic Raw Sample&r from &eFramented Cobblestone&r"
 		""
@@ -128,7 +127,7 @@
 	quest.7ABEBD82A4C59351.quest_desc: ["To crat &6Diamonds&r"]
 	quest.7B2A7B4C00BA20FF.quest_desc: ["Pipes are used to transfer items, fluids and energy between inventories"]
 	quest.7C8AB31008850B97.title: "...gate..."
-	quest.7E22D21BC3AD05AF.quest_desc: ["Smelt &eBasic Raw Sample&r to obtain &6Modularium&r"]
+	quest.7E22D21BC3AD05AF.quest_desc: ["Smelt &eRaw Sample&r to obtain &6Modularium&r"]
 	quest.7EF9123506C45F7D.quest_desc: ["Makes the Stick use energy instead of durability"]
 	quest.7F0F6414C875A7A2.quest_desc: ["Crush &eRaw Minerals&r into &6Dirty Dusts&r with Hammer"]
 	quest.7F3A1E85A5ECE85F.quest_desc: ["This pack is centered on Multiblock Machines created with &6Modular Machinery Reborn&r Mod"]
@@ -144,8 +143,10 @@
 	task.2CD9BF7A8C05BB4A.title: "The Shop"
 	task.30B6D5B9535EDBA2.title: "Crafting Tables"
 	task.3662E4C62C0E3E7C.title: "Welcome"
+	task.3675C1530495DAC9.title: "Tier 1"
 	task.374A2933730BF474.title: "Building Gadgets"
 	task.3D2BDB02EBFB2D0F.title: "Chisel"
+	task.42D61CF5EABB9AC9.title: "Tier 3"
 	task.449BD12376EA3F29.title: "Pipez"
 	task.44DDF8B39BA97EA6.title: "Zoom"
 	task.4542054B37A309A4.title: "Upgrades"
@@ -157,6 +158,7 @@
 	task.5E4A340D815A8678.title: "Planks"
 	task.602412DE1C05DB95.title: "Any #minecraft:logs"
 	task.609292F5F2F884C7.title: "Upgrades"
+	task.67145A6220DB19F7.title: "Tier 2"
 	task.68E5932359931CC3.title: "No Ores For You"
 	task.6B20F6C93A599274.title: "Utility"
 	task.6C0EDE4092E86A0E.title: "Start Chapter"

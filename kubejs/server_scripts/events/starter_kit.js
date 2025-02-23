@@ -1,8 +1,7 @@
 function give_starter_kit(player) {
     let starter_kit = [
-        { item: "minecraft:wooden_pickaxe", count: 1, slot: 1 },
-        { item: "minecraft:wooden_axe", count: 1, slot: 2 },
-        { item: "minecraft:torch", count: 8, slot: 3 },
+        { item: "minecraft:wooden_axe", count: 1, slot: 1 },
+        { item: "minecraft:torch", count: 8, slot: 2 },
         { item: "prefab:item_house", count: 1, slot: 8 },
         { item: "ftbquests:book", count: 1, slot: 9 }
     ]

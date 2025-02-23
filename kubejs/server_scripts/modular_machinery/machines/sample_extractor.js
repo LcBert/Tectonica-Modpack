@@ -38,5 +38,5 @@ ServerEvents.recipes(event => {
         .width(130)
         .height(80)
         .requireItem("tectonica:framented_cobblestone", 0, 0)
-        .produceItem("tectonica:basic_raw_sample", 46, 0)
+        .produceItem("tectonica:raw_sample", 46, 0)
 })
