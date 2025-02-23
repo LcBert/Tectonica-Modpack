@@ -45,4 +45,13 @@ ServerEvents.recipes(event => {
         .requireFluid("150x minecraft:water", 0, 0)
         .requireItem("minecraft:coal", 0, 20)
         .produceEnergy(64, 44, 0)
+
+    event.recipes.modular_machinery_reborn.machine_recipe("mmr:steam_generator", 300)
+        .progressX(20)
+        .progressY(0)
+        .width(130)
+        .height(80)
+        .requireFluid("150x minecraft:water", 0, 0)
+        .requireItem("minecraft:charcoal", 0, 20)
+        .produceEnergy(64, 44, 0)
 })

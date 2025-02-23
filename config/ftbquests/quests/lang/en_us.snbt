@@ -86,6 +86,10 @@
 	quest.5BD03351291373E1.quest_desc: ["Mine &eCobblestone&r with Hammer to obtain &6Framented Cobblestone&r"]
 	quest.5C42EFEBD0E73131.quest_desc: ["To craft &6Lapis Lazuli&r"]
 	quest.5DD7A66FFF6B3156.quest_desc: ["Portable Crafting Table... Yes"]
+	quest.606F6041DD4D3A0C.quest_desc: [
+		"&6Coal&r smelts 8 items"
+		"&6Charcoal&r smelts 2 items"
+	]
 	quest.6530D4170EEF43E7.quest_desc: [
 		"&6Item Transfer&r: &216 every 10 ticks&r"
 		"&6Fluid Transfer&r: &2500 mB every tick&r"
