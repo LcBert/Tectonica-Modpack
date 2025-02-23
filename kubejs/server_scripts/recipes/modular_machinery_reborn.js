@@ -1,27 +1,30 @@
-// let inputbus_items = []
-
-// ServerEvents.tags("item", event => {
-//     event.get("modular_machinery_reborn:inputbus").getObjectIds().forEach(id => {
-//         console.log("asd: " + id)
-//     })
-// })
-
 ServerEvents.recipes(event => {
     event.remove({ output: "modular_machinery_reborn:modularium" })
-    event.smelting("modular_machinery_reborn:modularium", "tectonica:basic_raw_sample").id("tectonica:smelting/modularium")
-    event.blasting("modular_machinery_reborn:modularium", "tectonica:basic_raw_sample").id("tectonica:blasting/modularium")
+    event.smelting("modular_machinery_reborn:modularium", "tectonica:basic_raw_sample")
+    event.blasting("modular_machinery_reborn:modularium", "tectonica:basic_raw_sample")
 
     event.remove({ id: "modular_machinery_reborn:casing_plain" })
+    event.remove({ id: "modular_machinery_reborn:casing_firebox" })
+
     event.shaped("2x modular_machinery_reborn:casing_plain", [
         " A ",
         "ABA",
         " A "
     ], {
-        A: "alltheores:steel_plate",
+        A: "alltheores:iron_plate",
         B: "minecraft:redstone"
-    }).id("tectonica:mmr_casing_plain")
+    })
+    event.recipes.extendedcrafting.shaped_table("2x modular_machinery_reborn:casing_plain", [
+        " A ",
+        "ABA",
+        " A "
+    ], {
+        A: "alltheores:iron_plate",
+        B: "minecraft:redstone"
+    })
 
-    event.shaped("modular_machinery_reborn:casing_circuitry", [
+
+    event.recipes.extendedcrafting.shaped_table("modular_machinery_reborn:casing_circuitry", [
         " A ",
         "ABA",
         " A "
@@ -30,17 +33,16 @@ ServerEvents.recipes(event => {
         B: "modular_machinery_reborn:casing_plain"
     })
 
-    event.shaped("modular_machinery_reborn:casing_vent", [
+    event.recipes.extendedcrafting.shaped_table("modular_machinery_reborn:casing_vent", [
         " A ",
         "ABA",
         " A "
     ], {
         A: "minecraft:iron_bars",
         B: "modular_machinery_reborn:casing_plain"
-    }).id("tectonica:mmr_casing_vent")
+    })
 
-    event.remove({ id: "modular_machinery_reborn:casing_firebox" })
-    event.shaped("modular_machinery_reborn:casing_firebox", [
+    event.recipes.extendedcrafting.shaped_table("modular_machinery_reborn:casing_firebox", [
         " A ",
         "ABA",
         " C "
@@ -48,9 +50,9 @@ ServerEvents.recipes(event => {
         A: "minecraft:iron_bars",
         B: "modular_machinery_reborn:casing_plain",
         C: "minecraft:campfire"
-    }).id("tectonica:mmr_casing_firebox")
+    })
 
-    event.shaped("modular_machinery_reborn:casing_gearbox", [
+    event.recipes.extendedcrafting.shaped_table("modular_machinery_reborn:casing_gearbox", [
         " A ",
         "ABA",
         " A "
@@ -128,7 +130,7 @@ ServerEvents.recipes(event => {
     energyoutputhatch("energyoutputhatch_ultimate", "casing_reinforced", "energyoutputhatch_ludicrous")
 
     function inputbus_recipe(output, casing, middle_item) {
-        event.shaped("modular_machinery_reborn:" + output, [
+        event.recipes.extendedcrafting.shaped_table("modular_machinery_reborn:" + output, [
             "ACA",
             "DED",
             "ABA"
@@ -138,11 +140,11 @@ ServerEvents.recipes(event => {
             C: "minecraft:hopper",
             D: "pipez:item_pipe",
             E: "modular_machinery_reborn:" + middle_item
-        }).id("tectonica:mmr/" + output)
+        })
     }
 
     function outputbus_recipe(output, casing, middle_item) {
-        event.shaped("modular_machinery_reborn:" + output, [
+        event.recipes.extendedcrafting.shaped_table("modular_machinery_reborn:" + output, [
             "ABA",
             "DED",
             "ACA"
@@ -152,11 +154,11 @@ ServerEvents.recipes(event => {
             C: "minecraft:hopper",
             D: "pipez:item_pipe",
             E: "modular_machinery_reborn:" + middle_item
-        }).id("tectonica:mmr/" + output)
+        })
     }
 
     function fluidinputhatch(output, casing, middle_item) {
-        event.shaped("modular_machinery_reborn:" + output, [
+        event.recipes.extendedcrafting.shaped_table("modular_machinery_reborn:" + output, [
             "ACA",
             "DED",
             "ABA"
@@ -170,7 +172,7 @@ ServerEvents.recipes(event => {
     }
 
     function fluidoutputhatch(output, casing, middle_item) {
-        event.shaped("modular_machinery_reborn:" + output, [
+        event.recipes.extendedcrafting.shaped_table("modular_machinery_reborn:" + output, [
             "ABA",
             "DED",
             "ACA"
@@ -184,7 +186,7 @@ ServerEvents.recipes(event => {
     }
 
     function energyinputhatch(output, casing, middle_item) {
-        event.shaped("modular_machinery_reborn:" + output, [
+        event.recipes.extendedcrafting.shaped_table("modular_machinery_reborn:" + output, [
             "ACA",
             "DED",
             "ABA"
@@ -198,7 +200,7 @@ ServerEvents.recipes(event => {
     }
 
     function energyoutputhatch(output, casing, middle_item) {
-        event.shaped("modular_machinery_reborn:" + output, [
+        event.recipes.extendedcrafting.shaped_table("modular_machinery_reborn:" + output, [
             "ABA",
             "DED",
             "ACA"

@@ -1,3 +1,4 @@
 [
-  {"version":2}
+  {"version":2},
+  {"ingredient":{"id":"tectonica:basic_machine_core"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

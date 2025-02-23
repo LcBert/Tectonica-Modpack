@@ -1,7 +1,6 @@
 [
   {"version":2},
-  {"ingredient":{"id":"modular_machinery_reborn:controller","components":{"modular_machinery_reborn:machine":"mmr:sample_extractor"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"minecraft:raw_iron"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"tectonica:dirty_iron_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"alltheores:iron_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"modular_machinery_reborn:controller","components":{"modular_machinery_reborn:machine":"mmr:steam_generator"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"alltheores:brass_plate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"alltheores:brass_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

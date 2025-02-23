@@ -231,8 +231,8 @@
 			dependencies: ["31D61AD764A40A9D"]
 			id: "07BAD36260A7D3EE"
 			tasks: [{
-				id: "3470B44B706E6406"
-				item: { count: 1, id: "alltheores:cinnabar_dust" }
+				id: "16FB1E3FF27EA54E"
+				item: { count: 1, id: "minecraft:redstone" }
 				type: "item"
 			}]
 			x: 4.0d

@@ -42,7 +42,7 @@
 	quest.2B0DAC4C2690EDB6.quest_desc: [
 		"Wash &6Dirty Dusts&r by Right-Click &eWater&r"
 		""
-		"&e&n&oTip: Find Water Lake&r"
+		"&e&n&oTip: Use Waystones to fast travel between Home and Water Lakes&r"
 	]
 	quest.2D137D0413FABE42.quest_subtitle: "Transfers Fluids"
 	quest.2D137D0413FABE42.title: "&3Fluid Pipe&r"
@@ -70,10 +70,9 @@
 		"&6Fluid Transfer&r: &22000 mB every tick&r"
 		"&6Energy Transfer&r: &232768 FE every tick&r"
 	]
-	quest.45CC9D017521123B.title: "Materials List"
 	quest.474C17167349EF68.quest_desc: ["Create Templates for using with Building Gadgets"]
 	quest.485B1DB5AD0ED2BB.title: "...hazard..."
-	quest.48BA50D7171856CF.quest_desc: ["Craft &6Raw Iron&r with &e3 Basic Raw Sample&r"]
+	quest.48BA50D7171856CF.quest_desc: ["Craft &6Raw Iron&r with &eBasic Raw Sample&r"]
 	quest.49BE596EA176C832.quest_desc: [
 		"Extract &6Basic Raw Sample&r from &eFramented Cobblestone&r"
 		""
@@ -94,8 +93,13 @@
 		"&6Energy Transfer&r: &28192 FE every tick&r"
 	]
 	quest.65F5BE3C5FFFA2EC.quest_desc: ["To craft ores, put 3 &6Raw Sample&r in crafting table, and with Cycle Button, choose the ore"]
+	quest.66B531BA60462E07.quest_desc: [
+		"Basic Crafting Table allow you to craft all others Machines"
+		"{@pagebreak}"
+		"Use Click Machines to auto click Grass Block with Pebble Extractor"
+		"Don't worry, it doesn't use energy"
+	]
 	quest.6B347BCB1C5928DB.quest_desc: ["To autobuild the machine, open gui (click the controller) and click the left button"]
-	quest.6CEC90480CDAD11A.quest_desc: ["Break Machines Block by Shift Right-Click with hammer"]
 	quest.6F968C204066EFF1.quest_desc: [
 		"&6&lMax Construction Blocks&r&r: &23&r"
 		"&6&lDurability&r&r: &259&r"
@@ -155,6 +159,7 @@
 	task.609292F5F2F884C7.title: "Upgrades"
 	task.68E5932359931CC3.title: "No Ores For You"
 	task.6B20F6C93A599274.title: "Utility"
+	task.6C0EDE4092E86A0E.title: "Start Chapter"
 	task.6FE2D7F79F60A894.title: "Find Water Lake"
 	task.7E3E63D6DBAE0FD7.title: "How to craft"
 }

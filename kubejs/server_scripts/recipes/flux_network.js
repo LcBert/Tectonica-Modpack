@@ -12,7 +12,7 @@ ServerEvents.recipes(event => {
         A: "fluxnetworks:flux_core",
         B: "fluxnetworks:flux_block",
         C: "alltheores:enderium_gear"
-    }).id("tectonica:flux_networks/flux_configurator")
+    })
 
     event.shaped("4x fluxnetworks:flux_core", [
         "ABA",
@@ -22,7 +22,7 @@ ServerEvents.recipes(event => {
         A: "fluxnetworks:flux_dust",
         B: "minecraft:obsidian",
         C: "alltheores:enderium_gear"
-    }).id("tectonica:flux_networks/flux_core")
+    })
 
     event.shaped("fluxnetworks:flux_controller", [
         "AEA",
@@ -34,5 +34,5 @@ ServerEvents.recipes(event => {
         C: "fluxnetworks:flux_core",
         D: "fluxnetworks:flux_point",
         E: "alltheores:steel_gear"
-    }).id("tectonica:flux_networks/flux_controller")
+    })
 })

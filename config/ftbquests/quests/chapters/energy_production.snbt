@@ -11,7 +11,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2E089CD2428E98FC"]
+			dependencies: ["66B531BA60462E07"]
 			id: "12C04537DB70E50E"
 			shape: "gear"
 			size: 2.0d
@@ -26,6 +26,58 @@
 		{
 			dependencies: ["12C04537DB70E50E"]
 			id: "57160D649B5F1595"
+			rewards: [
+				{
+					count: 5
+					id: "24D1D9E6E59E7FBD"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:casing_plain"
+					}
+					type: "item"
+				}
+				{
+					id: "30A9BB0F7F7B42D1"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:inputbus_tiny"
+					}
+					type: "item"
+				}
+				{
+					id: "6DBF8AE3E8E1A3A9"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:fluidinputhatch_tiny"
+					}
+					type: "item"
+				}
+				{
+					id: "246E9FD4BF771F31"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:energyoutputhatch_tiny"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7D492BB09875EF29"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:casing_vent"
+					}
+					type: "item"
+				}
+				{
+					id: "547834514C2EDD05"
+					item: {
+						count: 1
+						id: "modular_machinery_reborn:casing_firebox"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6958A6534D365EDC"
 				item: { components: { "modular_machinery_reborn:machine": "mmr:steam_generator" }, count: 1, id: "modular_machinery_reborn:controller" }
@@ -37,50 +89,12 @@
 		}
 		{
 			dependencies: ["57160D649B5F1595"]
-			icon: {
-				id: "modular_machinery_reborn:blueprint"
-			}
-			id: "45CC9D017521123B"
-			tasks: [
-				{
-					count: 5L
-					id: "18E63C8F73A3A804"
-					item: { count: 3, id: "modular_machinery_reborn:casing_plain" }
-					type: "item"
-				}
-				{
-					id: "758FC288D50E6870"
-					item: { count: 1, id: "modular_machinery_reborn:inputbus_tiny" }
-					type: "item"
-				}
-				{
-					id: "23C0C842712F71A6"
-					item: { count: 1, id: "modular_machinery_reborn:fluidinputhatch_tiny" }
-					type: "item"
-				}
-				{
-					id: "66BE57E3886D2EB6"
-					item: { count: 1, id: "modular_machinery_reborn:energyoutputhatch_tiny" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "5A957CED8FAE0FB6"
-					item: { count: 2, id: "modular_machinery_reborn:casing_vent" }
-					type: "item"
-				}
-				{
-					id: "469ED8A21A08A1C2"
-					item: { count: 1, id: "modular_machinery_reborn:casing_firebox" }
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "7D74BCE4AB423971"
-					item: { count: 3, id: "minecraft:iron_bars" }
-					type: "item"
-				}
-			]
+			id: "1A1C040227F99C3E"
+			tasks: [{
+				id: "2D35FEE0494F4486"
+				item: { count: 1, id: "minecraft:bucket" }
+				type: "item"
+			}]
 			x: 0.0d
 			y: 3.5d
 		}

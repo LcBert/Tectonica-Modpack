@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    event.shaped("modular_machinery_reborn:controller[modular_machinery_reborn:machine=\"mmr:steam_generator\"]", [
+    event.recipes.extendedcrafting.shaped_table("modular_machinery_reborn:controller[modular_machinery_reborn:machine=\"mmr:steam_generator\"]", [
         "ABA",
         "BCB",
         "ABA"

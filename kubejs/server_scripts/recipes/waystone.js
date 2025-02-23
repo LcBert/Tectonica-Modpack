@@ -29,3 +29,21 @@ ServerEvents.recipes(event => {
         C: "minecraft:smooth_stone"
     }).id("tectonica:waystone")
 })
+
+RecipeViewerEvents.removeEntries("item", event => {
+    let blacklist_items = [
+        "waystones:waystone",
+        "waystones:warp_stone",
+        "waystones:warp_dust",
+        "waystones:attuned_shard"
+    ]
+    Item.getList().forEach(item => {
+        if (item.mod == "waystones") {
+            if (!blacklist_items.includes(item.id)) event.remove(item.id)
+        }
+    })
+})
+
+RecipeViewerEvents.addEntries("item", event => {
+    event.add("waystones:attuned_shard")
+})
