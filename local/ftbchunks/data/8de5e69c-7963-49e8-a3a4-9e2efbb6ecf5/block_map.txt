@@ -1,0 +1,4 @@
+#058353 minecraft:cobblestone
+#80497A minecraft:dirt
+#74E84D tectonica:framented_cobblestone
+#3F84B7 minecraft:grass_block

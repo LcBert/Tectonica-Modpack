@@ -1,0 +1,7 @@
+#6F6 minecraft:badlands
+#2DC minecraft:deep_dark
+#008 minecraft:desert
+#498 minecraft:lush_caves
+#5FF minecraft:river
+#51A minecraft:stony_shore
+#1C9 minecraft:wooded_badlands

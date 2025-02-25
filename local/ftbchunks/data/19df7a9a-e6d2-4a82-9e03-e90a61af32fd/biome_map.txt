@@ -1,0 +1,6 @@
+#556 minecraft:beach
+#2DC minecraft:deep_dark
+#498 minecraft:lush_caves
+#073 minecraft:mushroom_fields
+#5FF minecraft:river
+#169 minecraft:taiga

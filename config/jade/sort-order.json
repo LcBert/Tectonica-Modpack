@@ -15,6 +15,9 @@
   "extendedcrafting:flux_crafter": null,
   "extendedcrafting:ultimate_auto_table": null,
   "extendedcrafting:ultimate_table": null,
+  "fluiddrawerslegacy:controller": null,
+  "fluiddrawerslegacy:fluiddrawer": null,
+  "fluidtank:jade_plugin": null,
   "gravestone:grave": null,
   "jade:block_face": null,
   "jade:block_properties": null,
@@ -79,6 +82,7 @@
   "modular_machinery_reborn:machine_component_provider": null,
   "modular_machinery_reborn:machine_server_data_provider": null,
   "pipez:pipe": null,
+  "portabletanks:portable_tank_component": null,
   "storagedrawers:main": null,
   "waystones:waystone": null
 }

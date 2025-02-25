@@ -1,0 +1,4 @@
+#52B53D minecraft:air
+#058353 minecraft:cobblestone
+#74E84D tectonica:framented_cobblestone
+#DC3458 minecraft:stone

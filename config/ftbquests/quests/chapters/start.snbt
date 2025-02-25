@@ -4,7 +4,7 @@
 	filename: "start"
 	group: "7519B328FBDC6BB2"
 	icon: {
-		id: "modular_machinery_reborn:modularium"
+		id: "tectonica:raw_sample"
 	}
 	id: "74713836B2878C38"
 	order_index: 0
@@ -94,22 +94,13 @@
 		{
 			dependencies: ["7F0F6414C875A7A2"]
 			id: "2B0DAC4C2690EDB6"
-			rewards: [{
-				count: 2
-				id: "4954DC3D0C05FCE6"
-				item: {
-					count: 1
-					id: "waystones:waystone"
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "7E9CC212F5542ADC"
 				item: { count: 1, id: "alltheores:iron_dust" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 6.0d
+			x: 3.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["273CB871EDA8FEA5"]
@@ -129,7 +120,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["2E75C92378BFF27F"]
@@ -149,7 +140,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5A6DD38D44C1801F"]
@@ -175,6 +166,7 @@
 			}]
 			tasks: [
 				{
+					count: 4L
 					id: "222AFCA8FFD19B39"
 					item: { count: 1, id: "tectonica:stone_pebble" }
 					type: "item"
@@ -256,19 +248,20 @@
 				item: { count: 1, id: "alltheores:steel_dust" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 7.5d
+			x: 3.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["5F580AC4A454B596"]
 			id: "41DB46D58A5FF453"
 			tasks: [{
+				count: 4L
 				id: "53821F959EB224DE"
 				item: { count: 1, id: "alltheores:steel_ingot" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 9.0d
+			x: 3.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["436D983F3A182942"]
@@ -300,7 +293,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["5A6DD38D44C1801F"]
@@ -318,12 +311,13 @@
 			dependencies: ["41DB46D58A5FF453"]
 			id: "48CF44CC474C982E"
 			tasks: [{
+				count: 4L
 				id: "0EA2AE4E8FF61D04"
 				item: { count: 1, id: "extendedcrafting:black_iron_ingot" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 9.0d
+			x: 1.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["48CF44CC474C982E"]
@@ -334,13 +328,13 @@
 				item: { count: 1, id: "extendedcrafting:black_iron_slate" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 9.0d
+			x: 0.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
 				"30F37A56559138F1"
-				"12A93E5A65FAB5E9"
+				"68E73B5E215521EC"
 			]
 			id: "01723F6615AB3F45"
 			tasks: [{
@@ -348,7 +342,7 @@
 				item: { count: 1, id: "extendedcrafting:basic_catalyst" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.0d
 			y: 9.0d
 		}
 		{
@@ -371,19 +365,8 @@
 				item: { count: 1, id: "modular_machinery_reborn:casing_plain" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["31B30E4059C30A80"]
-			id: "12A93E5A65FAB5E9"
-			tasks: [{
-				id: "20DE823DE8172D54"
-				item: { count: 1, id: "minecraft:redstone_block" }
-				type: "item"
-			}]
 			x: -1.5d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -406,8 +389,8 @@
 				item: { count: 1, id: "extendedcrafting:basic_table" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 10.75d
+			x: -2.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["2B0DAC4C2690EDB6"]
@@ -418,41 +401,31 @@
 				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["18E9EC459EEFCD13"]
 			id: "4907C10A1D38EF9C"
 			tasks: [{
+				count: 4L
 				id: "320A545AE80735AB"
 				item: { count: 1, id: "alltheores:iron_plate" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: 7.5d
 		}
 		{
-			dependencies: ["40C1A1E4DA03B8DC"]
-			id: "27F2CC61EA7D6A0A"
+			dependencies: ["18E9EC459EEFCD13"]
+			id: "68E73B5E215521EC"
 			tasks: [{
-				id: "56CE9BA5AD314706"
-				item: { count: 1, id: "minecraft:coal" }
+				id: "6A0DB88D0A92A57D"
+				item: { count: 1, id: "minecraft:iron_block" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["27F2CC61EA7D6A0A"]
-			id: "606F6041DD4D3A0C"
-			tasks: [{
-				id: "164B49920DDF0FD2"
-				item: { count: 1, id: "minecraft:charcoal" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 4.5d
+			x: 1.5d
+			y: 9.0d
 		}
 	]
 }

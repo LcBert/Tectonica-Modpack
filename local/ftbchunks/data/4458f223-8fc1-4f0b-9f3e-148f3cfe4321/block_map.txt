@@ -4,6 +4,7 @@
 #0F359D minecraft:azure_bluet
 #A9A632 ftbquests:barrier
 #170F54 extendedcrafting:basic_auto_table
+#3BCC6F portabletanks:basic_portable_tank
 #B831E2 extendedcrafting:basic_table
 #DDFBA9 wirelesschargers:basic_wireless_block_charger
 #B8DC6A mcwstairs:birch_balcony
@@ -25,6 +26,7 @@
 #0844E5 modular_machinery_reborn:casing_vent
 #6A23D5 minecraft:cauldron
 #732911 chisel:chaotic_bricks/cobblestone
+#3A6A65 fluidtank:chest_as_tank
 #8FAAB1 clickmachine:click_machine
 #058353 minecraft:cobblestone
 #292077 mcwwindows:cobblestone_arrow_slit
@@ -38,6 +40,7 @@
 #85E2BA modular_machinery_reborn:controller
 #CC07F6 minecraft:cornflower
 #468304 minecraft:crafting_table
+#302C7B fluidtank:creative
 #B2A2E1 minecraft:dandelion
 #3A78D3 mcwfences:deepslate_brick_grass_topped_wall
 #001A41 ftbquests:detector
@@ -60,6 +63,8 @@
 #0A420F factory_blocks:factory
 #303709 factory_blocks:fan_malfunction
 #391008 factory_blocks:fan_side
+#A86BF7 pipez:fluid_pipe
+#E7A8FA fluiddrawerslegacy:fluiddrawer
 #338B5F modular_machinery_reborn:fluidinputhatch_big
 #CCC70F modular_machinery_reborn:fluidinputhatch_ludicrous
 #C2D924 modular_machinery_reborn:fluidinputhatch_normal
@@ -162,6 +167,9 @@
 #BE8CA3 mcwfurnitures:stripped_spruce_glass_kitchen_cabinet
 #0EAA1C minecraft:suspicious_gravel
 #329213 minecraft:sweet_berry_bush
+#F91495 fluidtank:tank_void
+#F989AE fluidtank:tank_wood
+#BFD352 portabletanks:ultimate_portable_tank
 #B925E2 waystones:warp_plate
 #FB59FD minecraft:water_cauldron
 #860330 minecraft:waxed_copper_bulb

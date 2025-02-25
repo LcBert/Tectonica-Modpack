@@ -98,5 +98,16 @@
 			x: 0.0d
 			y: 3.5d
 		}
+		{
+			dependencies: ["57160D649B5F1595"]
+			id: "1AC3AD023AF178CC"
+			tasks: [{
+				id: "4244CA86CB79BFAB"
+				item: { count: 1, id: "portabletanks:basic_portable_tank" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
 	]
 }

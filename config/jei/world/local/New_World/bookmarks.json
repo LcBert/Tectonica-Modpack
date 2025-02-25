@@ -1,3 +1,4 @@
 [
-  {"version":2}
+  {"version":2},
+  {"ingredient":{"id":"extendedcrafting:basic_table"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

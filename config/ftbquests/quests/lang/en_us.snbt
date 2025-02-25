@@ -31,18 +31,15 @@
 	quest.19C39228544CBC08.quest_subtitle: "Transfers Items"
 	quest.19C39228544CBC08.title: "&6Item Pipe&r"
 	quest.1A930AFB93CBC16A.quest_desc: ["Use Smithing Table to apply Templates into Sticks"]
+	quest.1AC3AD023AF178CC.quest_desc: ["Use Tanks to store Fluids"]
 	quest.22B991423FF19C07.quest_desc: ["Construction Sticks allow you to place multiple blocks at once"]
 	quest.24489A4713724439.quest_desc: [
 		"&6&lMax Construction Blocks&r&r: &21024&r"
 		"&6&lDurability&r&r: &22031&r"
 	]
 	quest.2504F033D693F63E.quest_desc: ["Welcome to my first modpack"]
-	quest.273CB871EDA8FEA5.quest_desc: ["The &6Raw Sample&r is the main material to get all others minerals"]
-	quest.2B0DAC4C2690EDB6.quest_desc: [
-		"Wash &6Dirty Dusts&r by Right-Click &eWater&r"
-		""
-		"&e&n&oTip: Use Waystones to fast travel between Home and Water Lakes&r"
-	]
+	quest.273CB871EDA8FEA5.quest_desc: ["Obtain &6Raw Sample&r from &eFramented Cobblestone&r in &aSample Extractor&r"]
+	quest.2B0DAC4C2690EDB6.quest_desc: ["Wash &6Dirty Dusts&r by Right-Click &eWater&r"]
 	quest.2D137D0413FABE42.quest_subtitle: "Transfers Fluids"
 	quest.2D137D0413FABE42.title: "&3Fluid Pipe&r"
 	quest.2E289B93BE1D5921.quest_desc: ["The Dirty Dusts, Clumps, Shards and Crystals textures are taken from &n&6Alltheores Mod&r which unfortunately doesn't add these elements"]
@@ -86,10 +83,6 @@
 	quest.5BD03351291373E1.quest_desc: ["Mine &eCobblestone&r with Hammer to obtain &6Framented Cobblestone&r"]
 	quest.5C42EFEBD0E73131.quest_desc: ["To craft &6Lapis Lazuli&r"]
 	quest.5DD7A66FFF6B3156.quest_desc: ["Portable Crafting Table... Yes"]
-	quest.606F6041DD4D3A0C.quest_desc: [
-		"&6Coal&r smelts 8 items"
-		"&6Charcoal&r smelts 2 items"
-	]
 	quest.6530D4170EEF43E7.quest_desc: [
 		"&6Item Transfer&r: &216 every 10 ticks&r"
 		"&6Fluid Transfer&r: &2500 mB every tick&r"

@@ -168,7 +168,7 @@
 			cooldown: 30
 			
 			# Default: true
-			enabled: true
+			enabled: false
 			
 			# Max size of the teleport history. This limits how many times you can use /back
 			# You can override this with FTB Ranks using ftbessentials.back.max
@@ -208,7 +208,7 @@
 			cooldown: 10
 			
 			# Default: true
-			enabled: true
+			enabled: false
 			
 			# The minimum Y value for homes, as set by the /sethome command
 			# Default: -2147483648
@@ -264,7 +264,7 @@
 			dimension_whitelist: [ ]
 			
 			# Default: true
-			enabled: true
+			enabled: false
 			
 			# /rtp max distance from spawn point
 			# Default: 25000
@@ -295,7 +295,7 @@
 			cooldown: 10
 			
 			# Default: true
-			enabled: true
+			enabled: false
 			
 			# Warm-up time before /spawn command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.spawn.warmup
@@ -314,7 +314,7 @@
 			cooldown: 10
 			
 			# Default: true
-			enabled: true
+			enabled: false
 			
 			# Warm-up time before /tpa command executes (in seconds)
 			# You can override this with FTB Ranks using ftbessentials.tpa.warmup

@@ -1,0 +1,11 @@
+#0F359D minecraft:azure_bluet
+#CC07F6 minecraft:cornflower
+#B2A2E1 minecraft:dandelion
+#3F84B7 minecraft:grass_block
+#52E3AF minecraft:mud
+#AD9EB5 minecraft:oak_leaves
+#F6678E minecraft:oxeye_daisy
+#36285C minecraft:pink_tulip
+#AFAC0D minecraft:poppy
+#E6B35B minecraft:pumpkin
+#1C0619 waystones:waystone

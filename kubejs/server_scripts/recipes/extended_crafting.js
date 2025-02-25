@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
         " A "
     ], {
         A: "extendedcrafting:black_iron_slate",
-        B: "minecraft:redstone_block"
+        B: "minecraft:iron_block"
     })
 
     event.shaped("extendedcrafting:basic_table", [

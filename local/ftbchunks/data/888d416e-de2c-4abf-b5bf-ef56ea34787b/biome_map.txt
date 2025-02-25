@@ -1,0 +1,7 @@
+#05B minecraft:bamboo_jungle
+#556 minecraft:beach
+#4F9 minecraft:dark_forest
+#2DC minecraft:deep_dark
+#4B0 minecraft:jungle
+#5FF minecraft:river
+#51A minecraft:stony_shore
